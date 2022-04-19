@@ -11,8 +11,10 @@ print(double(arg)) # when i do list * 2 its only concatenated
 
 print((map(double, arg))) # when i print a map its only returned it address
 double_value = (map(double, arg))
+
+# turn map object into an array list then print it 
 double_value = list(double_value)
 print(double_value)
 
-for element in double_value: # to see each element mapped i need to store it on a variable then print it
+for element in double_value: # to see each element mapped i need to store it on a variable then print it or do as previous
     print(element)
